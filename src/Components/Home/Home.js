@@ -29,6 +29,7 @@ import Computers from '../images/product images/computers.jpg';
 import Personalcare from '../images/product images/personalcare.jpg';
 import Homeimprovement from '../images/product images/homeimprovement.jpg';
 import Under$10 from '../images/product images/under$10.jpg';
+import Footer from '../Footer/Footer';
 
 function Home() {
   return (
@@ -124,7 +125,7 @@ function Home() {
 
       />
     </main>
-      
+      <Footer />
     </div>
   )
 }

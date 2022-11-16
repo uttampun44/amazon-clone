@@ -1,8 +1,40 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import Items from './Product.module.css'
+import './Product.css';
 import BoxBasket from '../images/product images/product basket image.jpg';
+import { Carousel } from 'react-responsive-carousel';
+import 'react-multi-carousel/lib/styles.css';
+
+import Books1 from '../images/product images/Books/books1.jpg';
+// import Books2 from '../images/product images/Books/books2.jpg;
+import Books3 from '../images/product images/Books/books3.jpg';
+import Books4 from '../images/product images/Books/books4.jpg';
+import Books5 from '../images/product images/Books/books5.jpg';
+import Books6 from '../images/product images/Books/books6.jpg';
+import Books7 from '../images/product images/Books/books7.jpg';
+import Books8 from '../images/product images/Books/books8.jpg';
+import Books9 from '../images/product images/Books/books8.jpg';
+import Books10 from '../images/product images/Books/books10.jpg';
+import Books11 from '../images/product images/Books/books11.jpg';
+import Books12 from '../images/product images/Books/books12.jpg';
+import Books13 from '../images/product images/Books/books13.jpg';
+import Books14 from '../images/product images/Books/books14.jpg';
+import Books15 from '../images/product images/Books/books15.jpg';
+import Books16 from '../images/product images/Books/books16.jpg';
+import Books17 from '../images/product images/Books/books17.jpg';
+import Books18 from '../images/product images/Books/books18.jpg';
+import Books19 from '../images/product images/Books/books19.jpg';
+import Books20 from '../images/product images/Books/books20.jpg';
+
 function Product(props) {
+const responsive = {
+  desktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 400, min: 100 },
+    items: 2
+  },
+}
   return (
     <div className={Items.shop}>
     <section className='shop-section'>
@@ -133,8 +165,95 @@ function Product(props) {
        <Link path='/' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link11}</Link>
       </div>
     </div>
-</section>
-    </div>
+    
+    {/*Book producst */}
+     <Carousel responsive={responsive.desktop} className='carousel' infinite={true} showThumbs={true}>
+                  <div className={Items.bookscategory}> 
+                         <img src={Books1} alt=""/>
+                      </div>
+              
+                    
+
+                          <div className={Items.bookscategory}>
+                                <img src={Books3} alt=""/>
+                                  </div>
+                       
+                            <div className={Items.bookscategory}> 
+                                 <img src={Books4} alt=""/>
+                                  </div>             
+               
+                             <div className={Items.bookscategory}>
+                                   <img src={Books5} alt=""/>
+                                     </div>
+   
+                                         
+                                     <div className={Items.bookscategory}>
+                                     <img src={Books6} alt=""/>
+                                       </div>
+
+                               <div className={Items.bookscategory}>
+                                  <img src={Books7} alt=""/>
+                                </div>
+
+                                   <div className={Items.bookscategory}>
+                                       <img src={Books8} alt=""/>
+                                    </div>
+
+                                      <div className={Items.bookscategory}>
+                                         <img src={Books9} alt=""/>
+                                        </div>
+
+                                        <div className={Items.bookscategory}>
+                                          <img src={Books10} alt=""/>
+                                         </div>
+
+                                          <div className={Items.bookscategory}>
+                                            <img src={Books11} alt=""/>
+                                              </div>
+
+                     <div className={Items.bookscategory}> 
+                         <img src={Books12} alt=""/>
+                      </div>
+              
+                      <div className={Items.bookscategory}>
+                            <img src={Books13} alt=""/>
+                               </div>
+
+                          <div className={Items.bookscategory}>
+                                <img src={Books14} alt=""/>
+                                  </div>
+                       
+                            <div className={Items.bookscategory}> 
+                                 <img src={Books15} alt=""/>
+                                  </div>             
+               
+                             <div className={Items.bookscategory}>
+                                   <img src={Books16} alt=""/>
+                                     </div>
+   
+                                         
+                                     <div className={Items.bookscategory}>
+                                     <img src={Books17} alt=""/>
+                                       </div>
+
+                               <div className={Items.bookscategory}>
+                                  <img src={Books18} alt=""/>
+                                </div>
+
+                                   <div className={Items.bookscategory}>
+                                       <img src={Books19} alt=""/>
+                                    </div>
+
+                                        <div className={Items.bookscategory}>
+                                          <img src={Books20} alt=""/>
+                                         </div>
+
+                            </Carousel>
+
+                             {/*book products end */}
+                             
+              </section>
+         </div>
   )
 }
 

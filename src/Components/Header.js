@@ -53,12 +53,17 @@ function Header() {
            </nav> 
            <div className={Headcss.secondnav}>
               <div className={Headcss.secondnavitems}>
+              <Link to=''  className={Headcss.dealslink}>All</Link>
                 <Link to=''  className={Headcss.dealslink}>Today's Deals</Link>
                 <Link to=''  className={Headcss.dealslink}>12 Day's of Deals</Link>
                 <Link to=''  className={Headcss.dealslink}>Customer Service</Link>
                 <Link to=''  className={Headcss.dealslink}>Registery</Link>
                 <Link to=''  className={Headcss.dealslink}>Gift Cards</Link>
                 <Link to=''  className={Headcss.dealslink}>Sell</Link>
+                <Link to=''  className={Headcss.dealslink}>Pharmacy</Link>
+                <Link to=''  className={Headcss.dealslink}>Customer Service</Link>
+                <Link to=''  className={Headcss.dealslink}>Kindle Books</Link>
+                <Link to=''  className={Headcss.dealslink}>Fashion</Link>
               </div>
               <div className={Headcss.shopdealsinelectronics}>
                <Link to='/'  className={Headcss.dealslink}>Shop Deals in electronics</Link>

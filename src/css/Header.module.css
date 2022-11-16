@@ -9,6 +9,7 @@ nav{
     padding: .5rem;
     align-items: center;
 }
+
 .amazonlogo img{
     width: 100px;
     object-fit: fill;
@@ -75,6 +76,8 @@ padding: 6px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .secondnavitems{
     display: flex;

@@ -1,0 +1,12 @@
+.carousel{
+    display: flex;
+    background-color: #fff;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.carousel li > img{
+    width: 100px;
+}
+.carousel button{
+    background-color: red;
+}
