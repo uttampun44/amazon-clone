@@ -69,7 +69,28 @@ nav{
 .cartitems{
 padding: 6px;
 }
-
+.secondnav{
+    background-color:  #232f3e;
+    padding: .6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secondnavitems{
+    display: flex;
+    gap: 1rem;
+   
+}
+.dealslink{
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: '.9rem';
+    font-weight: 500;
+}
+.dealslink:hover{
+    border: 1px solid #fff;
+}
 /* @media (min-width: 1200px) and (max-width: 1440px){
     .searchlogo input{
         

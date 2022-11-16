@@ -108,7 +108,7 @@ function Product(props) {
               </div>
               
               <div className={Items.computerscategory}>
-              <img src={props.image13} alt="" style={{width:'180px', objectFit: 'fill'}}/>
+              <img src={props.image13} alt="" style={{objectFit: 'fill'}}/>
               <span>{props.name13}</span>
               </div>
 

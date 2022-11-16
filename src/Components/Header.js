@@ -4,9 +4,10 @@ import SearchIcon from '@mui/icons-material/Search';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Headcss from '../css/Header.module.css';
 import '../App.css';
+import { Link } from 'react-router-dom';
 
 function Header() {
- 
+
   return (
     <div className='header'>
         <header>
@@ -50,6 +51,19 @@ function Header() {
         
                </div>
            </nav> 
+           <div className={Headcss.secondnav}>
+              <div className={Headcss.secondnavitems}>
+                <Link to=''  className={Headcss.dealslink}>Today's Deals</Link>
+                <Link to=''  className={Headcss.dealslink}>12 Day's of Deals</Link>
+                <Link to=''  className={Headcss.dealslink}>Customer Service</Link>
+                <Link to=''  className={Headcss.dealslink}>Registery</Link>
+                <Link to=''  className={Headcss.dealslink}>Gift Cards</Link>
+                <Link to=''  className={Headcss.dealslink}>Sell</Link>
+              </div>
+              <div className={Headcss.shopdealsinelectronics}>
+               <Link to='/'  className={Headcss.dealslink}>Shop Deals in electronics</Link>
+              </div>
+           </div>
         </header>
     </div>
   )
