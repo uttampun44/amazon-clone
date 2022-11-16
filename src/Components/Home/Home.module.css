@@ -1,0 +1,12 @@
+.slider img{
+    height: 500px;
+    object-fit: fill;
+}
+.slider{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main{
+    background-color: #EAEDED;
+}

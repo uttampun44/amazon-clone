@@ -1,0 +1,76 @@
+.shop{
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 150px;
+    z-index: 1;
+}
+.shopgrid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(300px, 1fr));
+    padding-left: 1rem;
+    padding-right: 1rem;
+    column-gap: 1rem;
+}
+.category{
+    padding: 2rem 1rem 2rem 2rem;
+    background-color: #fff;
+    display: grid;
+    row-gap: 1rem;
+}
+.fitimage{
+    padding-top: 2rem;
+}
+.fitimage >img{
+    width: 250px;
+    object-fit: fill;
+    height: auto;
+}
+.category > h1{
+    line-height: 2;
+    font-family: var(--main-font);
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+.category > Link{
+    line-height: 2;
+    font-family: var(--main-font);
+    text-decoration: none;
+    font: .6rem;
+    font-weight: 500;
+}
+
+.shopbycategory{
+    /* padding: 2rem 1rem 2rem 2rem; */
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(100px, 1fr));
+    text-align: center;
+    row-gap: 1rem;
+    align-items: center;
+    justify-items: center;
+}
+.computerscategory > img{
+    width: 100px;
+    height: auto;
+    object-fit: fill;
+}
+.basketheading {
+    background-color: #fff;
+    display: grid;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    row-gap: 1rem;
+}
+.basketheading button{
+    padding: 1rem;
+}
+.boxbasket{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    row-gap: 2rem;
+}
