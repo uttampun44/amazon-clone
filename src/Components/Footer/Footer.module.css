@@ -1,3 +1,31 @@
 footer{
     background-color: #232F3E;;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.footerdesign{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gettoknowus{
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+.gettoknowus h4{
+    color: #fff;
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.footerslink{
+    color: #DDD;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: .9rem;
 }
