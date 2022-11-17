@@ -8,10 +8,13 @@
     margin-right: auto;
 }
 main{
-    background-color: #EAEDED;
+   
     max-width: 1500px;
     margin-left: auto;
     margin-right: auto;
+}
+.mainsection{
+    background-color: #EAEDED;
 }
 @media(min-width: 1200px) and (max-width: 1440px){
     .slider{

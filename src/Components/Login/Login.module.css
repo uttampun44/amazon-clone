@@ -1,0 +1,64 @@
+body{
+    background-color: none;
+}
+.formlogo{
+    text-align: center;
+}
+.loginform{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+.loginform h4{
+    font-family: var(--main-font);
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2;
+}
+.loginformdesign{
+   display: grid;
+   row-gap: 1rem;
+}
+.loginformdesign label{
+    font-family: var(--main-font);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1;
+}
+.loginformdesign input{
+    padding: 5px 10px;
+    height: 30px;
+  outline-color: #eeb35c;
+   font-size: 1rem;
+ width: 300px;
+}
+.loginbutton{
+    text-align: center;
+    margin-top: 2rem;
+    line-height: 2;
+}
+.loginbutton button{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    font-size: .8rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #e7e9ec;
+    border: 1px solid #adb1b8;
+}
+.loginbutton button:hover{
+    background-color: #f0c14b;
+    outline-color: #eeb35c;
+}
+p{
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
