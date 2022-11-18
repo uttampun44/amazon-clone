@@ -1,8 +1,24 @@
 import React from 'react'
 import Account from './Signup.module.css'
 import InfoIcon from '@mui/icons-material/Info';
+import { useState } from 'react';
+
 
 function Signup() {
+   const[formdata, setData] = useState({
+    fullname: '',
+    email: '',
+    password: '',
+    repassword: ''
+   });
+   const userInput = (e) =>{
+     setData({...formdata, [e.target.name]: e.target.value});
+     console.log(formdata);
+   }
+  const formSubmit = (e) =>{
+    setData({fullname: '', email: '', password: '', repassword: '' });
+    e.preventDefault();
+  }
   return (
     <div className={Account.createaccount}>
     <img src={require('../images/formlogo.png')} alt=''/>
@@ -10,19 +26,19 @@ function Signup() {
      <h2>Create account</h2>
        <div className={Account.form}>
         
-       <form>
+       <form onSubmit={formSubmit}>
           <div className={Account.labelandinput}>
            <label htmlFor='yourname'>Your name</label>
            <br></br>
-           <input type='text' name='yourname' autoComplete='off' required/>
+           <input type='text' name='fullname' autoComplete='off' required onChange={userInput} value={formdata.fullname}/>
            <br></br>
            <label htmlFor='email'>Email</label>
            <br></br>
-           <input type='email' name='email' autoComplete='off'   required/>
+           <input type='email' name='email' autoComplete='off'  onChange={userInput}  required value={formdata.email}/>
            <br></br>
            <label htmlFor='password'>Password</label>
            <br></br>
-           <input type='password' placeholder='At least 6 characters' id='password' name='password' autoComplete='off'   required/>
+           <input type='password' placeholder='At least 6 characters' id='password' name='password' autoComplete='off'   onChange={userInput} required value={formdata.password}/>
            <br></br>
           <div className={Account.alert}>
           <InfoIcon  htmlcolor='red'/><span>
@@ -30,7 +46,7 @@ function Signup() {
           </div>
           <label htmlFor='repassword'>Re-enter password</label>
           <br></br>
-          <input type='password' name='repassword' autoComplete='off' required/>
+          <input type='password' name='repassword' autoComplete='off' required value={formdata.repassword} onChange={userInput}/>
 
            <div className={Account.create}>
             

@@ -23,7 +23,7 @@
 }
 .fitimage{
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     padding-right: 1rem;
 }
 .fitimage >img{
@@ -110,6 +110,13 @@
 }
 .bookcategory > img{
     width: 100%;
+}
+.fitness h1{
+    line-height: 2;
+    font-family: var(--main-font);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
 }
 @media (min-width: 1200px) and (max-width: 1440px){
     .shop{

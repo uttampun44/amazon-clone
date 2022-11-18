@@ -24,7 +24,7 @@ function Product(props) {
          <div className={Items.fitimage}>
          <img src={props.image} alt=""/>
          </div>
-         <Link path='/' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link}</Link>
+         <Link to='/fitness' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link}</Link>
         </div>
          
         <div className={Items.category}>
