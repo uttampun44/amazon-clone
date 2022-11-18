@@ -86,7 +86,7 @@ function Product(props) {
         <div className={Items.boxbasket}>
             <div className={Items.basketheading}>
             <h1>Sign in for the best experience</h1>
-            <button>Call Now</button>
+            <button>Sign in securely</button>
             </div>
            <div className={Items.basketimage}>
            <img src={BoxBasket} alt=''/>

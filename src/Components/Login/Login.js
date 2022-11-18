@@ -20,14 +20,14 @@ function Login() {
               </form>
 
               <p>By continuing, you agree to Amazon's <Link to=''>Conditions of use</Link> and <Link to=''>Privacy Notice</Link></p>
-          </div>
-
-          <div className={Logins.loginbutton}>
-          <span>New to amazon</span>
-          <br></br>
-         <Link to='/signup'> <button>Create your amazon account</button></Link>
-          </div>
-          
+              
+              <div className={Logins.loginbutton}>
+              <span>New to amazon</span>
+              <br></br>
+             <Link to='/signup'> <button>Create your amazon account</button></Link>
+              </div>
+              
+              </div>
     </div>
   )
 }
