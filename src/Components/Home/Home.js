@@ -30,6 +30,7 @@ import Personalcare from '../images/product images/personalcare.jpg';
 import Homeimprovement from '../images/product images/homeimprovement.jpg';
 import Under$10 from '../images/product images/under$10.jpg';
 import Footer from '../Footer/Footer';
+import Carouselsitem from '../carousel/Carouselitem';
 
 function Home() {
   return (
@@ -124,6 +125,15 @@ function Home() {
       image16 = {Under$10}
 
       />
+      <section className={Main.carouselitem}>
+          <div className={Main.childcarousel}>
+          <Carouselsitem />
+          </div>
+
+          <div className={Main.childcarousel}>
+          <Carouselsitem />
+          </div>
+      </section>
     </main>
       <Footer />
     </div>

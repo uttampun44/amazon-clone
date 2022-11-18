@@ -1,0 +1,9 @@
+.carousel{
+    background-color: #fff;
+    padding: 1rem;
+}
+.carousel h4{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
