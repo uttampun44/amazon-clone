@@ -12,6 +12,8 @@
 html{
   scroll-behavior: smooth;
 }
-/* body{
-  background: #EAEDED;
-} */
+@media(min-width: 280px) and (max-width: 767px){
+  html, body{
+    overflow: hidden;
+  }
+}

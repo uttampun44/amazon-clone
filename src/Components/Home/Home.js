@@ -31,7 +31,7 @@ import Homeimprovement from '../images/product images/homeimprovement.jpg';
 import Under$10 from '../images/product images/under$10.jpg';
 import Footer from '../Footer/Footer';
 import Carouselsitem from '../carousel/Carouselitem';
-
+import Gifts from '../carousel/Gifts';
 function Home() {
   return (
     <div className={Main.mainsection}>
@@ -131,7 +131,7 @@ function Home() {
           </div>
 
           <div className={Main.childcarousel}>
-          <Carouselsitem />
+          <Gifts />
           </div>
       </section>
     </main>
