@@ -1,11 +1,17 @@
 import React from 'react'
-import Fitnessgallery from './Fitness.module.css'
+import { Link } from 'react-router-dom';
+import Fitnessgallery from './Fitness.module.css';
 function Fitness() {
   return (
     <div>
          <div className={Fitnessgallery.gallery}>
                 <div className={Fitnessgallery.gallery1}>
                  <img src={require('./gymaccessories/dumbbell.jpg')} alt=''/>
+                  <div className={Fitnessgallery.title}>
+                  <span>Dumbell Pair 2kg sets</span>
+                  <span>$35</span>
+                  <Link to='/addtocart'>Add to cart</Link>
+                  </div>
                   </div>
 
                    <div className={Fitnessgallery.gallery1}>

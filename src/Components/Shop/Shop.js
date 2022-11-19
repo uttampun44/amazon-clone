@@ -18,7 +18,31 @@ function Shop() {
                <Outlet />
            </div>
      </div>
-     
+       <div className={Shops.productgallery}>
+            <div className={Shops.gallery}>
+               <img src={require('../images/headerimg1.jpg')} alt='' />
+            </div>
+         <div className={Shops.gallery}>
+              <img src={require('../images/headerimg2.jpg')} alt='' />
+          </div>
+
+          <div className={Shops.gallery}>
+          <img src={require('../images/headerimg3.jpg')} alt='' />
+           </div> 
+
+          <div className={Shops.gallery}>
+           <img src={require('../images/headerimg4.jpg')} alt='' />
+       </div>
+                
+       <div className={Shops.gallery}>
+           <img src={require('../images/headerimg5.jpg')} alt='' />
+        </div>        
+                   
+        <div className={Shops.gallery}>
+        <img src={require('../images/headerimg2.jpg')} alt='' />
+         </div> 
+
+        </div>
       <Footer />
     </div>
   )

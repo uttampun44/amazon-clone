@@ -10,3 +10,17 @@
     font-weight: 600;
     color: #333;
 }
+.productgallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    row-gap: 1rem;
+    column-gap: 1rem;
+    position: relative;
+    bottom: 50px;
+}
+.gallery > img{
+    width: 100%;
+}
