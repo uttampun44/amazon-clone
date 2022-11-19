@@ -1,0 +1,16 @@
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    position: relative;
+    bottom: 100px;
+    row-gap: 2rem;
+    margin-right: 3rem;
+    align-items: center;
+    margin-left: 3rem;
+    justify-items: center;
+}
+.gallery1 > img{
+    width: 150px;
+    height: auto;
+    object-fit: fill;
+}

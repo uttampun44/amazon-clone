@@ -24,7 +24,7 @@ function Product(props) {
          <div className={Items.fitimage}>
          <img src={props.image} alt=""/>
          </div>
-         <Link to='/fitness' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link}</Link>
+         <Link to='/shop' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link}</Link>
         </div>
          
         <div className={Items.category}>
@@ -50,7 +50,7 @@ function Product(props) {
                 <img src={props.image5} alt=""/>
                 <span>{props.name5}</span>
                 </div>
-                <Link to='/' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2', paddingTop: '2rem'}}>See more</Link>
+                <Link to='/shop' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2', paddingTop: '2rem'}}>See more</Link>
             </div> 
         </div>
 
@@ -79,7 +79,7 @@ function Product(props) {
                 <img src={props.image9} alt=""/>
                 <span>{props.name9}</span>
                 </div>
-                <Link to='/' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2', paddingTop: '2rem'}}>See more</Link>
+                <Link to='/shop' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2', paddingTop: '2rem'}}>See more</Link>
             </div> 
         </div>
 
@@ -99,7 +99,7 @@ function Product(props) {
          <div className={Items.fitimage}>
          <img src={props.image10} alt=""/>
          </div>
-         <Link path='/' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link10}</Link>
+         <Link path='/shop' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link10}</Link>
         </div>
 
         <div className={Items.category}>
@@ -107,7 +107,7 @@ function Product(props) {
          <div className={Items.fitimage}>
          <img src={props.image11} alt=""/>
          </div>
-         <Link path='/' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link11}</Link>
+         <Link path='/shop' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link11}</Link>
         </div>
 
         <div className={Items.category}>
@@ -133,7 +133,7 @@ function Product(props) {
               <img src={props.image15} alt=""/>
               <span>{props.name15}</span>
               </div>
-              <Link to='/' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2', paddingTop: '2rem'}}>See more</Link>
+              <Link to='/shop' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2', paddingTop: '2rem'}}>See more</Link>
           </div> 
       </div>
 
@@ -142,7 +142,7 @@ function Product(props) {
        <div className={Items.fitimage}>
        <img src={props.image16} alt=""/>
        </div>
-       <Link path='/' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link11}</Link>
+       <Link path='/shop' style={{fontFamily: 'var(--main-font)', fontWeight: '500', textDecoration: 'none', color:'#007185', lineHeight: '2'}}>{props.link11}</Link>
       </div>
     </div>
     

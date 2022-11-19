@@ -1,0 +1,12 @@
+.sidebar{
+    position: relative;
+    padding: 2rem;
+}
+.link{
+    line-height: 2;
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: .8rem;
+    font-weight: 600;
+    color: #333;
+}

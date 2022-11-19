@@ -13,7 +13,7 @@ function Header() {
         <header>
            <nav>
                <div className={Headcss.amazonlogo}>
-                 <img src={Headerlogo} alt=''/>
+               <Link to='/'><img src={Headerlogo} alt=''/></Link>
                </div>
 
                <div className={Headcss.searchlogo}>
