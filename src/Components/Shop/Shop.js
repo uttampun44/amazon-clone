@@ -1,11 +1,11 @@
-import React from 'react'
 import Header from '../Header';
 import Footer from '../Footer/Footer';
 import Shops from './Shop.module.css';
 import { Link, Outlet} from 'react-router-dom';
-
 function Shop() {
-  return (
+
+
+   return (
     <div>
       <Header />
       <div className={Shops.sidebar}>

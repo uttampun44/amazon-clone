@@ -46,3 +46,7 @@
     background-color: #d89236;
     padding: 1rem .6rem;
 }
+.fashiongallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}

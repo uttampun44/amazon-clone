@@ -1,0 +1,14 @@
+.fashiongallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    position: relative;
+    bottom: 50px;
+    row-gap: 2rem;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
+    justify-items: end;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
