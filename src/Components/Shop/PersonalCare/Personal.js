@@ -7,7 +7,7 @@ function Personal() {
    console.log(personalitems)
   return (
     <div>
-        <div className='grid grid-cols-3 justify-center align-middle mb-5'>
+        <div className='grid grid-cols-3 justify-center align-middle mb-5 grid-flow-col-dense'>
            {
                personalitems.map((personalcareitems) =>{
                  return <Perosnalhome key={personalcareitems.id} {...personalcareitems}/>
