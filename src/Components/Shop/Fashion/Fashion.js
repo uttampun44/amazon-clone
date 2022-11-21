@@ -4,7 +4,7 @@ import FashionHome from "./FashionHome"
 import Fashionsingleproduct from './Fashionproducts'
 import fashiongallery from './Fashionhome.module.css'
 function Fashion() {
-  const [itemdetails, setItems] = useState(Fashionsingleproduct);
+  const [itemdetails] = useState(Fashionsingleproduct);
 
   return (
     <div>

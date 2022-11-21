@@ -1,49 +1,19 @@
-import React from 'react'
-import Personalcare from './Personal.module.css'
+import React, { useState } from 'react'
+import personalcare from './Personalcareproducts'
+import Perosnalhome from './Perosnalhome';
+
 function Personal() {
+  const [personalitems, setPersonalItems] = useState(personalcare);
+   console.log(personalitems)
   return (
     <div>
-        <div className={Personalcare.gallery}>
-             <div className={Personalcare.gallery1}>
-                  <img src={require('../PersonalCare/healthcare/brush.jpg')} alt=''/>
-               </div>
-                
-             <div className={Personalcare.gallery1}>
-                  <img src={require('../PersonalCare/healthcare/cerave.jpg')} alt=''/>
-               </div>
-                
-             <div className={Personalcare.gallery1}>
-             <img src={require('../PersonalCare/healthcare/dove.jpg')} alt=''/>
-               </div>
-                  
-               <div className={Personalcare.gallery1}>
-             <img src={require('../PersonalCare/healthcare/razor.jpg')} alt=''/>
-               </div>
-
-               <div className={Personalcare.gallery1}>
-                   <img src={require('../PersonalCare/healthcare/therabee.jpg')} alt=''/>
-               </div>
-                  
-               <div className={Personalcare.gallery1}>
-               <img src={require('../PersonalCare/healthcare/brush.jpg')} alt=''/>
+        <div className='grid grid-cols-3 justify-center align-middle mb-5'>
+           {
+               personalitems.map((personalcareitems) =>{
+                 return <Perosnalhome key={personalcareitems.id} {...personalcareitems}/>
+               })
+           }
             </div>
-             
-          <div className={Personalcare.gallery1}>
-               <img src={require('../PersonalCare/healthcare/cerave.jpg')} alt=''/>
-            </div>
-             
-          <div className={Personalcare.gallery1}>
-          <img src={require('../PersonalCare/healthcare/dove.jpg')} alt=''/>
-            </div>
-               
-            <div className={Personalcare.gallery1}>
-          <img src={require('../PersonalCare/healthcare/razor.jpg')} alt=''/>
-            </div>
-
-            <div className={Personalcare.gallery1}>
-          <img src={require('../PersonalCare/healthcare/therabee.jpg')} alt=''/>
-            </div>
-          </div> 
     </div>
   )
 }
