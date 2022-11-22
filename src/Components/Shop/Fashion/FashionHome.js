@@ -1,7 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Fashiongallery from '../Fashion/Fashion.module.css';
 import { Link } from 'react-router-dom';
+
+
 function FashionHome({id, image, name, price}) {
+  const [itemsdetails, setDetails] = useState(id, image, name, price)
+
+  const Addtocart = () =>{
+   setDetails([...itemsdetails]);
+ 
+  }
   return (
     <div>
            <div className={Fashiongallery.gallery}>
@@ -11,7 +19,7 @@ function FashionHome({id, image, name, price}) {
                 
                 <span>{name}</span>
                 <span>{price}</span>
-                <Link to='/addtocart' className={Fashiongallery.link}>Add to cart</Link>
+                <Link to='/addtocart' className={Fashiongallery.link} onClick={Addtocart}>Add to cart</Link>
                 </div>
              </div>
             

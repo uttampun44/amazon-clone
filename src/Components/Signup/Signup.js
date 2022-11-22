@@ -17,11 +17,19 @@ function Signup() {
    }
   const formSubmit = (e) =>{
     setData({fullname: '', email: '', password: '', repassword: '' });
+  if(formdata.password !== formdata.repassword){
+    alert("password must be match");
     e.preventDefault();
+  }  
+  else if(formdata.password.length < 6){
+        alert('Letter atleast 6 words');
+        e.preventDefault();
+   }
   }
+
   return (
     <div className={Account.createaccount}>
-    <img src={require('../images/formlogo.png')} alt=''/>
+    <img src={require('../images/formlogo.png')} alt='' style={{margin: 'auto'}}/>
     <div className={Account.heading}>
      <h2>Create account</h2>
        <div className={Account.form}>
