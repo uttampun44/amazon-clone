@@ -1,27 +1,37 @@
 import React, { useState } from 'react'
 import Fashiongallery from '../Fashion/Fashion.module.css';
 import { Link } from 'react-router-dom';
+import Fashionitems from './Fashionproducts'
 
-
-function FashionHome({id, image, name, price}) {
-  const [itemsdetails, setDetails] = useState(id, image, name, price)
-
-  const Addtocart = () =>{
-   setDetails([...itemsdetails]);
- 
-  }
+function FashionHome() {
+  const [itemsdetails, setDetails] = useState(Fashionitems)
+   console.log(itemsdetails)
+   
+   const  Addtocart = (e) =>{
+     console.log(e);
+     console.log("Hello");
+   }
   return (
     <div>
            <div className={Fashiongallery.gallery}>
-             <div className={Fashiongallery.gallery1}>
-               <img src={image} alt=''/>
-                <div className={Fashiongallery.title}>
-                
-                <span>{name}</span>
-                <span>{price}</span>
-                <Link to='/addtocart' className={Fashiongallery.link} onClick={Addtocart}>Add to cart</Link>
-                </div>
-             </div>
+             {
+                itemsdetails.map((product) =>{
+                  return(
+                 
+                      <div className={Fashiongallery.gallery1} key={product.id}>
+                          <img src={product.image} alt=''/>
+                           <div className={Fashiongallery.title}>
+                     
+                             <span>{product.name}</span>
+                             <span>{product.price}</span>
+                             <Link to='/addtocart' className={Fashiongallery.link} onClick={()=>Addtocart(product)}>Add to cart</Link>
+                        </div>
+                      </div>
+                      
+                  )
+                })
+             }
+         
             
         </div>
     </div>

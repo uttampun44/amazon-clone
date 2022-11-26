@@ -10,7 +10,7 @@ function Shop() {
       <Header />
       <div className={Shops.sidebar}>
            <div className={Shops.Fashion}>
-               <Link to='/shop/fashion' className={Shops.link}>Fashion</Link>
+               <Link to='/shop/fashionhome' className={Shops.link}>Fashion</Link>
                <br></br>
                <Link to='/shop/personalcare' className={Shops.link}>Personal care</Link>
                <br></br>

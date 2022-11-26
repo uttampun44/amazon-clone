@@ -1,8 +1,8 @@
 # Diff Summary
 
-Date : 2022-11-22 21:27:05
+Date : 2022-11-24 21:37:18
 
-Directory d:\\Reactjs\\amazoneclone
+Directory d:\\Reactjs\\amazoneclone\\public
 
 Total : 0 files,  0 codes, 0 comments, 0 blanks, all 0 lines
 

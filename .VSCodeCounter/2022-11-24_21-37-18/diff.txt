@@ -1,5 +1,5 @@
-Date : 2022-11-22 21:27:05
-Directory : d:\Reactjs\amazoneclone
+Date : 2022-11-24 21:37:18
+Directory : d:\Reactjs\amazoneclone\public
 Total : 0 files,  0 codes, 0 comments, 0 blanks, all 0 lines
 
 Languages
