@@ -23,7 +23,7 @@ function App() {
             <Route exact path='fitness' element={<Fitness/>} />
             <Route exact path='personalcare' element={<Personal/>} />
             </Route>
-             <Route exact path='/addtocart' element={<Addtocart />}></Route>
+             <Route exact path='/addtocart/:id' element={<Addtocart />}></Route>
              <Route export path='*' element={<Error />}></Route>
         </Routes>
     </div>

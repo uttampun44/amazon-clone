@@ -1,15 +1,17 @@
 import React, { useState } from 'react'
 import Fashiongallery from '../Fashion/Fashion.module.css';
-import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import Fashionitems from './Fashionproducts'
 
 function FashionHome() {
   const [itemsdetails, setDetails] = useState(Fashionitems)
    console.log(itemsdetails)
    
+   const navigate = useNavigate();
    const  Addtocart = (e) =>{
      console.log(e);
      console.log("Hello");
+     navigate(`/addtocart/${e.id}`)
    }
   return (
     <div>
@@ -24,7 +26,8 @@ function FashionHome() {
                      
                              <span>{product.name}</span>
                              <span>{product.price}</span>
-                             <Link to='/addtocart' className={Fashiongallery.link} onClick={()=>Addtocart(product)}>Add to cart</Link>
+                             <button  className={Fashiongallery.link} onClick={()=>Addtocart(product)} >Add to cart</button>
+                           
                         </div>
                       </div>
                       
