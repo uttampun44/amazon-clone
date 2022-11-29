@@ -2,15 +2,22 @@ import React, { useState } from 'react'
 import Fashiongallery from '../Fashion/Fashion.module.css';
 import { useNavigate } from 'react-router-dom';
 import Fashionitems from './Fashionproducts'
+import { useDispatch } from 'react-redux';
+import { Add } from '../../../redux/Action';
 
 function FashionHome() {
   const [itemsdetails, setDetails] = useState(Fashionitems)
    console.log(itemsdetails)
    
+   const dispatch = useDispatch();
+
    const navigate = useNavigate();
+
    const  Addtocart = (e) =>{
      console.log(e);
      console.log("Hello");
+     dispatch(Add(e));
+
      navigate(`/addtocart/${e.id}`)
    }
   return (

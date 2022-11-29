@@ -5,9 +5,13 @@ import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import Headcss from '../css/Header.module.css';
 import '../App.css';
 import { Link} from 'react-router-dom';
+import { useSelector } from 'react-redux';
+
 
 function Header() {
 
+  const getdata = useSelector((state) => state.cartreducer.carts);
+  console.log(getdata);
   return (
     <div className='header'>
         <header>
@@ -43,9 +47,9 @@ function Header() {
                 </div>
                 <div className={Headcss.cartlogo}>
                   <ShoppingCartIcon style={{color: 'white'}}></ShoppingCartIcon>
-                  <span>0</span>
+                  <span key={getdata}></span>
                   <div className={Headcss.cartitems}>
-                  <span>cart</span>
+                  <span>{getdata.length}</span>
                   </div>
                 </div>
         

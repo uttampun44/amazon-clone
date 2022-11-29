@@ -9,25 +9,30 @@ import Fitness from './Components/Shop/Fitness/Fitness';
 import Personal from './Components/Shop/PersonalCare/Personal'
 import Addtocart from './Components/Addtocart/Addtocart';
  import Error from './Components/404/Error';
+import cartStore from './redux/Store';
+import { Provider } from 'react-redux';
+
 
 function App() {
   return (
-    <BrowserRouter>
-    <div className="App">
+   <Provider store={cartStore}>
+   <BrowserRouter>
+      <div className="App">
         <Routes>
-            <Route exact path='/' element={<Home />}> </Route>
-            <Route exact path='/login' element={<Login />}></Route>
-            <Route exact path='/signup' element={<Signup />}></Route>
-            <Route exact path='/shop' element={<Shop />}>
-            <Route exact path='fashionhome' element={<Fashionhome/>} />
-            <Route exact path='fitness' element={<Fitness/>} />
-            <Route exact path='personalcare' element={<Personal/>} />
-            </Route>
-             <Route exact path='/addtocart/:id' element={<Addtocart />}></Route>
-             <Route export path='*' element={<Error />}></Route>
-        </Routes>
-    </div>
+               <Route exact path='/' element={<Home />}> </Route>
+               <Route exact path='/login' element={<Login />}></Route>
+               <Route exact path='/signup' element={<Signup />}></Route>
+               <Route exact path='/shop' element={<Shop />}>
+               <Route exact path='fashionhome' element={<Fashionhome/>} />
+               <Route exact path='fitness' element={<Fitness/>} />
+               <Route exact path='personalcare' element={<Personal/>} />
+               </Route>
+                <Route exact path='/addtocart/:id' element={<Addtocart />}></Route>
+                <Route export path='*' element={<Error />}></Route>
+          </Routes>
+      </div>
     </BrowserRouter>
+   </Provider>
   );
 }
 
