@@ -1,0 +1,8 @@
+"filename", "language", "JSON", "HTML", "JavaScript", "comment", "blank", "total"
+"d:\Reactjs\amazoneclone\public\index.html", "HTML", 0, 19, 0, 23, 1, 43
+"d:\Reactjs\amazoneclone\public\manifest.json", "JSON", 25, 0, 0, 0, 1, 26
+"d:\Reactjs\amazoneclone\src\redux\Action.js", "JavaScript", 0, 0, -6, 0, 0, -6
+"d:\Reactjs\amazoneclone\src\redux\Main.js", "JavaScript", 0, 0, -6, 0, -3, -9
+"d:\Reactjs\amazoneclone\src\redux\Reducer.js", "JavaScript", 0, 0, -14, 0, -1, -15
+"d:\Reactjs\amazoneclone\src\redux\Store.js", "JavaScript", 0, 0, -6, 0, -2, -8
+"Total", "-", 25, 19, -32, 23, -4, 31

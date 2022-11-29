@@ -1,10 +1,10 @@
 # Summary
 
-Date : 2022-11-24 21:37:18
+Date : 2022-11-29 09:16:31
 
 Directory d:\\Reactjs\\amazoneclone\\public
 
-Total : 2 files,  45 codes, 23 comments, 2 blanks, all 70 lines
+Total : 2 files,  44 codes, 23 comments, 2 blanks, all 69 lines
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
@@ -12,11 +12,11 @@ Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-
 | language | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
 | JSON | 1 | 25 | 0 | 1 | 26 |
-| HTML | 1 | 20 | 23 | 1 | 44 |
+| HTML | 1 | 19 | 23 | 1 | 43 |
 
 ## Directories
 | path | files | code | comment | blank | total |
 | :--- | ---: | ---: | ---: | ---: | ---: |
-| . | 2 | 45 | 23 | 2 | 70 |
+| . | 2 | 44 | 23 | 2 | 69 |
 
 Summary / [Details](details.md) / [Diff Summary](diff.md) / [Diff Details](diff-details.md)

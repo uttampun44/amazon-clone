@@ -1,23 +1,24 @@
-# Diff Details
+# Details
 
-Date : 2022-11-24 21:37:24
+Date : 2022-11-29 09:16:40
 
-Directory d:\\Reactjs\\amazoneclone\\src\\Components
+Directory d:\\Reactjs\\amazoneclone\\src
 
-Total : 33 files,  1367 codes, -22 comments, 190 blanks, all 1535 lines
+Total : 39 files,  1642 codes, 21 comments, 221 blanks, all 1884 lines
 
-[Summary](results.md) / [Details](details.md) / [Diff Summary](diff.md) / Diff Details
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
 
 ## Files
 | filename | language | code | comment | blank | total |
 | :--- | :--- | ---: | ---: | ---: | ---: |
-| [public/index.html](/public/index.html) | HTML | -20 | -23 | -1 | -44 |
-| [public/manifest.json](/public/manifest.json) | JSON | -25 | 0 | -1 | -26 |
+| [src/App.css](/src/App.css) | CSS | 20 | 1 | 0 | 21 |
+| [src/App.js](/src/App.js) | JavaScript | 36 | 0 | 4 | 40 |
+| [src/App.test.js](/src/App.test.js) | JavaScript | 7 | 0 | 2 | 9 |
 | [src/Components/404/Error.js](/src/Components/404/Error.js) | JavaScript | 11 | 0 | 3 | 14 |
-| [src/Components/Addtocart/Addtocart.js](/src/Components/Addtocart/Addtocart.js) | JavaScript | 10 | 0 | 5 | 15 |
+| [src/Components/Addtocart/Addtocart.js](/src/Components/Addtocart/Addtocart.js) | JavaScript | 30 | 0 | 8 | 38 |
 | [src/Components/Footer/Footer.js](/src/Components/Footer/Footer.js) | JavaScript | 53 | 0 | 5 | 58 |
 | [src/Components/Footer/Footer.module.css](/src/Components/Footer/Footer.module.css) | CSS | 29 | 0 | 2 | 31 |
-| [src/Components/Header.js](/src/Components/Header.js) | JavaScript | 72 | 0 | 6 | 78 |
+| [src/Components/Header.js](/src/Components/Header.js) | JavaScript | 75 | 0 | 7 | 82 |
 | [src/Components/Home/Home.js](/src/Components/Home/Home.js) | JavaScript | 116 | 0 | 28 | 144 |
 | [src/Components/Home/Home.module.css](/src/Components/Home/Home.module.css) | CSS | 36 | 0 | 1 | 37 |
 | [src/Components/Login/Login.js](/src/Components/Login/Login.js) | JavaScript | 30 | 0 | 6 | 36 |
@@ -25,11 +26,9 @@ Total : 33 files,  1367 codes, -22 comments, 190 blanks, all 1535 lines
 | [src/Components/Products/Product.css](/src/Components/Products/Product.css) | CSS | 0 | 0 | 1 | 1 |
 | [src/Components/Products/Product.js](/src/Components/Products/Product.js) | JavaScript | 138 | 1 | 28 | 167 |
 | [src/Components/Products/Product.module.css](/src/Components/Products/Product.module.css) | CSS | 124 | 0 | 2 | 126 |
-| [src/Components/Shop/Fashion/Fashion.js](/src/Components/Shop/Fashion/Fashion.js) | JavaScript | 19 | 0 | 7 | 26 |
 | [src/Components/Shop/Fashion/Fashion.module.css](/src/Components/Shop/Fashion/Fashion.module.css) | CSS | 48 | 0 | 1 | 49 |
-| [src/Components/Shop/Fashion/FashionHome.js](/src/Components/Shop/Fashion/FashionHome.js) | JavaScript | 24 | 0 | 8 | 32 |
-| [src/Components/Shop/Fashion/Fashionhome.module.css](/src/Components/Shop/Fashion/Fashionhome.module.css) | CSS | 14 | 0 | 0 | 14 |
-| [src/Components/Shop/Fashion/Fashionproducts.js](/src/Components/Shop/Fashion/Fashionproducts.js) | JavaScript | 75 | 0 | 2 | 77 |
+| [src/Components/Shop/Fashion/FashionHome.js](/src/Components/Shop/Fashion/FashionHome.js) | JavaScript | 39 | 0 | 14 | 53 |
+| [src/Components/Shop/Fashion/Fashionproducts.js](/src/Components/Shop/Fashion/Fashionproducts.js) | JavaScript | 87 | 0 | 7 | 94 |
 | [src/Components/Shop/Fitness/Fitness.js](/src/Components/Shop/Fitness/Fitness.js) | JavaScript | 38 | 0 | 8 | 46 |
 | [src/Components/Shop/Fitness/Fitness.module.css](/src/Components/Shop/Fitness/Fitness.module.css) | CSS | 19 | 0 | 0 | 19 |
 | [src/Components/Shop/PersonalCare/Perosnalhome.js](/src/Components/Shop/PersonalCare/Perosnalhome.js) | JavaScript | 16 | 0 | 3 | 19 |
@@ -44,5 +43,12 @@ Total : 33 files,  1367 codes, -22 comments, 190 blanks, all 1535 lines
 | [src/Components/carousel/Carousel.module.css](/src/Components/carousel/Carousel.module.css) | CSS | 9 | 0 | 0 | 9 |
 | [src/Components/carousel/Carouselitem.js](/src/Components/carousel/Carouselitem.js) | JavaScript | 91 | 0 | 26 | 117 |
 | [src/Components/carousel/Gifts.js](/src/Components/carousel/Gifts.js) | JavaScript | 58 | 0 | 17 | 75 |
+| [src/css/Header.module.css](/src/css/Header.module.css) | CSS | 93 | 16 | 3 | 112 |
+| [src/index.css](/src/index.css) | CSS | 15 | 0 | 2 | 17 |
+| [src/index.js](/src/index.js) | JavaScript | 10 | 3 | 4 | 17 |
+| [src/redux/Action.js](/src/redux/Action.js) | JavaScript | 6 | 0 | 0 | 6 |
+| [src/redux/Main.js](/src/redux/Main.js) | JavaScript | 6 | 0 | 3 | 9 |
+| [src/redux/Reducer.js](/src/redux/Reducer.js) | JavaScript | 14 | 0 | 1 | 15 |
+| [src/redux/Store.js](/src/redux/Store.js) | JavaScript | 6 | 0 | 2 | 8 |
 
-[Summary](results.md) / [Details](details.md) / [Diff Summary](diff.md) / Diff Details
+[Summary](results.md) / Details / [Diff Summary](diff.md) / [Diff Details](diff-details.md)
