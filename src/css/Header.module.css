@@ -91,22 +91,3 @@ padding: 6px;
     font-size: '.9rem';
     font-weight: 500;
 }
-.dealslink:hover{
-    border: 1px solid #fff;
-}
-/* @media (min-width: 1200px) and (max-width: 1440px){
-    .searchlogo input{
-        
-        height: 35px;
-        border: 0;
-        outline-color: #fcbb6a;
-    }
-    @media (min-width: 1441px) and (max-width:1550px){
-        .searchlogo input{
-            width: 880px;
-            height: 35px;
-            border: 0;
-            outline-color: #fcbb6a;
-        }
-    }
-} */

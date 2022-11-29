@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Login() {
   return (
     <div>
-        <div className={Logins.formlogo}>
+        <div className='flex justify-center'>
         <img src={require('../images/formlogo.png')} alt=""/>
         </div>
          
