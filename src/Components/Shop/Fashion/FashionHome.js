@@ -5,6 +5,7 @@ import Fashionitems from './Fashionproducts'
 import { useDispatch } from 'react-redux';
 import { Add } from '../../../redux/Action';
 
+
 function FashionHome() {
   const [itemsdetails, setDetails] = useState(Fashionitems)
    console.log(itemsdetails)
