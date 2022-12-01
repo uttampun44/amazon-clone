@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../Header.js';
-import { useNavigate, useParams } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-import { Delete } from '../../redux/Action.js';
+import {Delete } from '../../redux/Action.js';
 
 
 function Addtocart() {
 
      const [items, setItems] = useState([]);
      const [price, setPrice] = useState(0);
-     console.log(price);
       console.log(items);
 
      const {id} = useParams();
@@ -27,12 +26,11 @@ function Addtocart() {
     
 //    total price function
      const pricetotal = () =>{
-          let price;
+          let price = 0;
             getitems.map((itemprice) =>{
              return price = itemprice.price + price
             });
-            setPrice(price);
-            console.log(price);     
+            setPrice(price); 
      }
 
      useEffect(() =>{
@@ -40,16 +38,18 @@ function Addtocart() {
      }, [id]);
     
      useEffect(() =>{
-          pricetotal()
+          pricetotal();
      }, [price])
 
      const deletebasketitem  = useDispatch()
+   
 
      // delete basket function 
    const deletebasket = (id) =>{
      deletebasketitem(Delete(id));
     console.log(`Hello world`);        
    }
+  
   return (
     <div>
     <Header />
@@ -69,7 +69,7 @@ function Addtocart() {
                                             <h10 className='uppercase font-bold text-2xl'>Product details</h10>
                                             <p className='text-xl font-normal max-w-fit'>Product Name:<span>{itemsdetail.name}</span></p>
                                             <p className='text-xl font-normal'>Price: <span>{itemsdetail.price}</span></p>
-                                         
+                                           
                                            <button className='bg-yellow-500 p-4 font-sans font-medium text-base rounded-md border-2 border-amber-50 text-white' onClick={() => deletebasket(itemsdetail.id)}>Remove from Basket</button>
                                        </div>
                                                   

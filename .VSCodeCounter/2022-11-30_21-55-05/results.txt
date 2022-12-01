@@ -1,0 +1,79 @@
+Date : 2022-11-30 21:55:05
+Directory : d:\Reactjs\amazoneclone\src
+Total : 39 files,  1689 codes, 8 comments, 239 blanks, all 1936 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| JavaScript |         25 |      1,106 |          7 |        223 |      1,336 |
+| CSS        |         14 |        583 |          1 |         16 |        600 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                             | files      | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                |         39 |      1,689 |          8 |        239 |      1,936 |
+| Components                                                                       |         29 |      1,467 |          4 |        215 |      1,686 |
+| Components\404                                                                   |          1 |         11 |          0 |          3 |         14 |
+| Components\Addtocart                                                             |          1 |         68 |          3 |         22 |         93 |
+| Components\Footer                                                                |          2 |         82 |          0 |          7 |         89 |
+| Components\Home                                                                  |          2 |        152 |          0 |         29 |        181 |
+| Components\Login                                                                 |          2 |         89 |          0 |          6 |         95 |
+| Components\Products                                                              |          3 |        262 |          1 |         31 |        294 |
+| Components\Shop                                                                  |         12 |        395 |          0 |         52 |        447 |
+| Components\Shop\Fashion                                                          |          3 |        174 |          0 |         22 |        196 |
+| Components\Shop\Fitness                                                          |          2 |         57 |          0 |          8 |         65 |
+| Components\Shop\PersonalCare                                                     |          4 |         78 |          0 |          8 |         86 |
+| Components\Signup                                                                |          2 |        175 |          0 |         15 |        190 |
+| Components\carousel                                                              |          3 |        158 |          0 |         43 |        201 |
+| css                                                                              |          1 |         90 |          0 |          4 |         94 |
+| redux                                                                            |          4 |         44 |          0 |          8 |         52 |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                         | language   | code       | comment    | blank      | total      |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| d:\Reactjs\amazoneclone\src\App.css                                              | CSS        |         20 |          1 |          0 |         21 |
+| d:\Reactjs\amazoneclone\src\App.js                                               | JavaScript |         36 |          0 |          4 |         40 |
+| d:\Reactjs\amazoneclone\src\App.test.js                                          | JavaScript |          7 |          0 |          2 |          9 |
+| d:\Reactjs\amazoneclone\src\Components\404\Error.js                              | JavaScript |         11 |          0 |          3 |         14 |
+| d:\Reactjs\amazoneclone\src\Components\Addtocart\Addtocart.js                    | JavaScript |         68 |          3 |         22 |         93 |
+| d:\Reactjs\amazoneclone\src\Components\Footer\Footer.js                          | JavaScript |         53 |          0 |          5 |         58 |
+| d:\Reactjs\amazoneclone\src\Components\Footer\Footer.module.css                  | CSS        |         29 |          0 |          2 |         31 |
+| d:\Reactjs\amazoneclone\src\Components\Header.js                                 | JavaScript |         75 |          0 |          7 |         82 |
+| d:\Reactjs\amazoneclone\src\Components\Home\Home.js                              | JavaScript |        116 |          0 |         28 |        144 |
+| d:\Reactjs\amazoneclone\src\Components\Home\Home.module.css                      | CSS        |         36 |          0 |          1 |         37 |
+| d:\Reactjs\amazoneclone\src\Components\Login\Login.js                            | JavaScript |         30 |          0 |          6 |         36 |
+| d:\Reactjs\amazoneclone\src\Components\Login\Login.module.css                    | CSS        |         59 |          0 |          0 |         59 |
+| d:\Reactjs\amazoneclone\src\Components\Products\Product.css                      | CSS        |          0 |          0 |          1 |          1 |
+| d:\Reactjs\amazoneclone\src\Components\Products\Product.js                       | JavaScript |        138 |          1 |         28 |        167 |
+| d:\Reactjs\amazoneclone\src\Components\Products\Product.module.css               | CSS        |        124 |          0 |          2 |        126 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\Fashion\Fashion.module.css           | CSS        |         48 |          0 |          1 |         49 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\Fashion\FashionHome.js               | JavaScript |         39 |          0 |         14 |         53 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\Fashion\Fashionproducts.js           | JavaScript |         87 |          0 |          7 |         94 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\Fitness\Fitness.js                   | JavaScript |         38 |          0 |          8 |         46 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\Fitness\Fitness.module.css           | CSS        |         19 |          0 |          0 |         19 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\PersonalCare\Perosnalhome.js         | JavaScript |         16 |          0 |          3 |         19 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\PersonalCare\Personal.js             | JavaScript |         19 |          0 |          3 |         22 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\PersonalCare\Personal.module.css     | CSS        |         10 |          0 |          2 |         12 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\PersonalCare\Personalcareproducts.js | JavaScript |         33 |          0 |          0 |         33 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\Shop.js                              | JavaScript |         43 |          0 |          9 |         52 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\Shop.module.css                      | CSS        |         26 |          0 |          0 |         26 |
+| d:\Reactjs\amazoneclone\src\Components\Shop\Shophome.js                          | JavaScript |         17 |          0 |          5 |         22 |
+| d:\Reactjs\amazoneclone\src\Components\Signup\Signup.js                          | JavaScript |         77 |          0 |         14 |         91 |
+| d:\Reactjs\amazoneclone\src\Components\Signup\Signup.module.css                  | CSS        |         98 |          0 |          1 |         99 |
+| d:\Reactjs\amazoneclone\src\Components\carousel\Carousel.module.css              | CSS        |          9 |          0 |          0 |          9 |
+| d:\Reactjs\amazoneclone\src\Components\carousel\Carouselitem.js                  | JavaScript |         91 |          0 |         26 |        117 |
+| d:\Reactjs\amazoneclone\src\Components\carousel\Gifts.js                         | JavaScript |         58 |          0 |         17 |         75 |
+| d:\Reactjs\amazoneclone\src\css\Header.module.css                                | CSS        |         90 |          0 |          4 |         94 |
+| d:\Reactjs\amazoneclone\src\index.css                                            | CSS        |         15 |          0 |          2 |         17 |
+| d:\Reactjs\amazoneclone\src\index.js                                             | JavaScript |         10 |          3 |          4 |         17 |
+| d:\Reactjs\amazoneclone\src\redux\Action.js                                      | JavaScript |         12 |          0 |          1 |         13 |
+| d:\Reactjs\amazoneclone\src\redux\Main.js                                        | JavaScript |          6 |          0 |          3 |          9 |
+| d:\Reactjs\amazoneclone\src\redux\Reducer.js                                     | JavaScript |         20 |          0 |          2 |         22 |
+| d:\Reactjs\amazoneclone\src\redux\Store.js                                       | JavaScript |          6 |          0 |          2 |          8 |
+| Total                                                                            |            |      1,689 |          8 |        239 |      1,936 |
++----------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
