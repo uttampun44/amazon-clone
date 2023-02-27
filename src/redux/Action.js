@@ -11,3 +11,13 @@ export const Delete = (id) =>{
         payload: id
     }
 }
+export const Increment = () =>{
+    return{
+        type: "Increment"
+    }
+}
+export const Decrement = () =>{
+    return{
+        type: "Decrement"
+    }
+}

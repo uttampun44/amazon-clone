@@ -2,9 +2,7 @@ const INIT_STATE = {
     carts: []
 };
 
-export const total = (carts) =>{
-    carts?.cartreducer((amount, payload) => payload.price + amount, 0)
-}
+
 export const cartreducer = (state = INIT_STATE, action) =>{
     switch(action.type){
         case 'ADD_TO_CART':
@@ -19,6 +17,16 @@ export const cartreducer = (state = INIT_STATE, action) =>{
                  ...state,
                  carts:removeitem
             }
+            case 'Increment':
+                return{
+                    ...state,
+                    carts:[]
+                }
+                case 'Decrement':
+                    return{
+                        ...state,
+                        carts:[]
+                    }
         default:
             return state
     }
